@@ -19,6 +19,14 @@ def calculate():
     except Exception as e:
         entry_display.delete(0, tk.END)
         entry_display.insert(tk.END, "Error")
+
+# Create the main window
+window = tk.Tk()
+window.title("Calculator")
+
+# Create entry display
+entry_display = tk.Entry(window, width=25, font=('Arial', 14))
+entry_display.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
         
 # Create number buttons
 buttons = [
