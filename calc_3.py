@@ -1,9 +1,15 @@
-3rd part
+
 def add_to_display(value):
     current = entry_display.get()
     entry_display.delete(0, tk.END)
     entry_display.insert(tk.END, current + value)
 
+3rd part
+def add_to_display(value):
+    current = entry_display.get()
+    entry_display.delete(0, tk.END)
+    entry_display.insert(tk.END, current + val
+                         
 def clear_display():
     entry_display.delete(0, tk.END)
 
