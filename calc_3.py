@@ -26,7 +26,7 @@ window = tk.Tk()
 window.title("Calculator")
 
 entry_display = tk.Entry(window, width=25, font=('Arial', 14))
-entry_display.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
+entry_display.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
         
 buttons = [
     '7', '8', '9', '/',
